@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+body {
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+    font-family: 'New Tegomin', serif;
+    font-size: 15pt;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.363);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.button:hover {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+}
+
+.button {
+    font-size: 15pt;
+    border: none;
+    background: #eceeb7;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+#txtano {
+    background: #b7caee73;
+    text-align: center;
+    font-weight: bold;
+
+}

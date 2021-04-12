@@ -1,18 +1,18 @@
 const verificar = () => {
     //window.alert('Funcionou')
-    var data = new Date()
-    var ano = data.getFullYear()
-    var fano = document.getElementById('txtano')
-    var res = document.getElementById('res')
+    let data = new Date()
+    let ano = data.getFullYear()
+    let fano = document.getElementById('txtano')
+    let res = document.getElementById('res')
 
     if (fano.value.length == 0 || fano.value > ano) {
         window.alert('[ERRO] Verifique os dados e tente novamente!')
     }
     else {
-        var fsex = document.getElementsByName('radsex')
-        var idade = ano - (fano.value)
-        var genero = ''
-        var img = document.createElement('img')
+        let fsex = document.getElementsByName('radsex')
+        let idade = ano - (fano.value)
+        let genero = ''
+        let img = document.createElement('img')
         img.setAttribute('id', 'foto')
         img.style.width = '300px'
         img.style.height= '300px'
